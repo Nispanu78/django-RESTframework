@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     # local application
     'posts',
 
-    # 3rd party application
+    # 3rd party applications
     'rest_framework',
     'rest_framework.authtoken',
     'allauth',
@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'dj_rest_auth',
     'dj_rest_auth.registration',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
