@@ -13,4 +13,4 @@ class PostViewSet(viewsets.ModelViewSet): # new
 
 class UserViewSet(viewsets.ModelViewSet): # new
     queryset = get_user_model().objects.all()
-    serializer_class = UserSerialize
+    serializer_class = UserSerializer
